@@ -15,6 +15,8 @@ Route 53
 
 
 -Seteamos un R53 donde el website URL es api.bestsneakers.com con un “alias record” para que lleve al usuario directamente al LB. Gracias a esto no necesitamos una elastic IP atada a cada instancia.
+
+
 Usuarios
 
 -Se conectan a través de R53 y son automáticamente dirigidos a un LB con multi AZ para que la carga pueda ser bien distribuida a las distintas instancias. Garantizando una buena performance y experiencia en el sitio web. Le agregamos Health checks para que no envie informacion a una instancia que se encuentra caida por ejemplo.
