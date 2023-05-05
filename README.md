@@ -14,7 +14,7 @@ Bestsneakers.com es una aplicación web que permite a los usuarios poder comprar
 Route 53 
 
 
--Seteamos un R53 donde el website URL es api.bestsneakers.com con un “alias record” para que lleve al usuario directamente al LB. Gracias a esto no necesitamos una elastic IP atada a cada instancia.
+-Seteamos un R53 donde el website URL es api.bestsneakers.com con un “alias record” para que lleve al usuario directamente al LB. Gracias a esto no necesitamos una elastic IP atada a cada instancia ademas solo hay 5 elastic ip por region y por cuenta default.
 
 
 Usuarios
