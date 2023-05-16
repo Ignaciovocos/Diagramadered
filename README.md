@@ -1,3 +1,15 @@
+# Consigna:
+Produzca un diagrama de red (puede utilizar
+lucidchart) de una aplicación web en GCP o AWS y escriba una descripción de
+texto de 1/2 a 1 página de sus elecciones y arquitectura.
+El diseño debe soportar:
+• Cargas variables
+• Contar con HA (alta disponibilidad)
+• Frontend en Js
+• Backend con una base de datos relacional y una no relacional
+• La aplicación backend consume 2 microservicios externos
+El diagrama debe hacer un mejor uso de las soluciones distribuidas.
+
 # Punto 1 : Diagrama de red para aplicación en AWS
 
 
